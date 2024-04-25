@@ -1,0 +1,23 @@
+@media(max-width:600px)
+{
+    #main
+    {
+        width: 70vw;
+        margin-left: 13vw;
+        height:80vw;
+        margin-bottom: 10vw;
+    }
+    #green
+    {
+        width: 69.2vw;
+        height: 64.3vw;
+        top: 90vw;
+    }
+    #apples
+    {
+        width: 40vw;
+        height: 20vw;
+        top: 45vw;
+        left: 15vw;
+    }
+}

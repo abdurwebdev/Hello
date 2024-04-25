@@ -1,0 +1,19 @@
+@media(max-width:992px)
+{
+    #main
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #main2
+    {
+        height: 490vh;
+    }
+}
+@media(max-width:600px)
+{
+    #main2
+    {
+        height: 360vh;
+    }
+}

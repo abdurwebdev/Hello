@@ -1,0 +1,13 @@
+@media(max-width:600px)
+{
+   #main
+   {
+    margin-top: 10vw;
+    height: 740vh;
+   }
+   #mera
+   {
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+}

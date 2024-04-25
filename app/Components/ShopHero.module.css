@@ -1,0 +1,33 @@
+@media(max-width:600px)
+{
+    #main
+    {
+        font-size: 20vw;
+        position: absolute;
+        left: -20vw;
+    }
+    #sub
+    {
+       margin-left: -14vw;
+       margin-top: 5vw;
+        top: 1400vw;
+        left: -23vw;
+        font-size: 5vw;
+       
+    }
+}
+@media(max-width:992px)
+{
+    #main
+    {
+        font-size: 10vw;
+        position: absolute;
+        left: -6vw;
+    }
+    #sub
+    {
+        position: absolute;
+        top:7vw;
+        left: -5vw;
+    }
+}

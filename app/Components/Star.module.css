@@ -1,0 +1,37 @@
+@media(max-width:992px)
+{
+    #main
+    {
+        width: 75vw;
+        margin-left: 11vw;
+        height: 63vh;
+    }
+    #image
+    {
+        width: 30vw;
+        height: 50vh; 
+    }
+    #sub
+    {
+        margin-top: 12vw;
+    }
+}
+@media(max-width:600px)
+{
+    #main
+    {
+        width: 85vw;
+        margin-left: 5vw;
+        height: 40vh;
+    }
+    #image
+    {
+        width: 35vw;
+        height: 32vh;
+        margin-top: -3vw;
+    }
+    #image2
+    {
+        width: 20vw;
+    }
+}

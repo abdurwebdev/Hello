@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media(max-width:992px)
+{
+    #fruits
+    {
+        margin-top: 5vw;
+    }
+    #inputs
+    {
+        margin-top: 14vw;
+        margin-left: -20vw;
+        width: 65vw;
+    }
+    #buttons
+    {
+        margin-top: -5.7vw;
+        margin-left: 20vw;
+    }
+    #icons
+    {
+        margin-top: 23vw;
+        margin-left: -5vw;
+    }
+    #borders
+    {
+        margin-left: 12vw;
+        width: 73vw;
+    }
+    #main
+    {
+        height: 175vh;
+    }
+    #grids {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5vw;
+    }
+    #links
+    {
+        margin-top: 1vw;
+    }
+    #grid2
+    {
+        margin-left: 12vw;
+    }
+    #grid3
+    {
+        margin-left: 9vw;
+    }
+    #last
+    {
+        margin-left: 5vw;
+    }
+ 
+
+}
+@media(max-width:600px)
+{
+    #fruits
+    {
+        margin-top: 15vw;
+        margin-left: 5vw;
+        font-size: 7vw;
+    }
+    #fresh
+    {
+        margin-top: 0vw;
+        margin-left: 5vw;
+    }
+    #inputs
+    {
+        margin-top: 30vw;
+        margin-left: -29vw;
+        width: 65vw;
+    }
+    #buttons
+    {
+        margin-top: -11.2vw;
+        margin-left: 8vw;
+    }
+    #icons
+    {
+        margin-top: 49vw;
+        margin-left: -28vw;
+    }
+    #grids {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5vw;
+    }
+    #main
+    {
+        height: 265vh;
+    }
+    #grids
+    {
+        margin-left: -18vw;
+    }
+    #shops
+    {
+        margin-left: 5vw;
+    }
+    #grid2
+    {
+        margin-left: 25vw;
+    }
+    #grid3
+    {
+        margin-left: 25vw;
+    }
+    #copy
+    {
+       display: inline-block;
+    }
+    #last
+    {
+        margin-top: 3vw;
+    }
+   
+}
+@media(max-width:1200px)
+{
+    
+}

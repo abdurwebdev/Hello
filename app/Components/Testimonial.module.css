@@ -1,0 +1,23 @@
+@media(max-width:992px)
+{   
+   #main
+   {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   #sub
+   {
+   width: 500vw;
+   }
+ 
+}
+@media(max-width:600px)
+{
+    #main1
+    {
+      width: 85vw;
+      margin-left: -10vw;
+      margin-bottom: 20px;
+    }
+   
+}

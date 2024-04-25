@@ -1,0 +1,82 @@
+@media(max-width:992px)
+{
+    #image
+    {
+        height: 200vh;
+    }
+    #main
+    {
+        height: 200vh;
+    }
+   #mainhead
+   {
+    margin-top: -90vw;
+   }
+  
+    #buttons
+    {
+        width: 15vw;
+        height: 6vw;
+        margin-left: -10vw;
+    }
+    #multiple
+    {
+        margin-top: -8vw;
+    }
+    #multiple input
+    {
+        width: 50vw;
+    }
+    #carosel
+    {
+        margin-top: 10vw;
+        width: 50vw;
+        height: 50vw;
+        margin-left: 25vw;
+
+    }
+    #grind
+    {
+       display: block;
+        width: 100%;
+        top: 0;
+    }
+}
+@media(max-width:600px)
+{
+    #image
+    {
+        height: 150vh;
+        width: 100%;
+    }
+    #mainhead
+    {
+     margin-top: -140vw;
+     margin-left: -20vw;
+    }
+    #subhead
+    {
+        margin-left: -20vw;
+    }
+    #maininput
+    {
+        margin-left: -20vw;
+    }
+    #buttons
+    {
+        height: 12vw;
+        width: 30vw;
+        margin-left: -15vw;
+    }
+    #carosel
+    {
+        margin-left: 10vw;
+        width: 75vw;
+        height: 75vw;
+        margin-top: 13vw;
+    }
+    #main
+    {
+        height: 150vh;
+    }
+}

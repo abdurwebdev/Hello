@@ -1,0 +1,20 @@
+@media(max-width:992px)
+{
+    #sub
+    {
+        width: 30vw;
+    }
+  
+}
+@media(max-width:600px)
+{
+    #sub
+    {
+        width: 60vw;
+        margin-left: -10vw;
+    }
+    #main
+    {
+        margin-left: -16vw;
+    }
+}

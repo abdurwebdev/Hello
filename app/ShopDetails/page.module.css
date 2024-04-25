@@ -1,0 +1,170 @@
+@media(max-width:992px)
+{
+    #main
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #son1
+    {
+        margin: 0 auto;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 130vh;
+    }
+    #son2
+    {
+        margin: 0 auto;
+        margin-left: 14vw;
+        margin-top: 3vw;
+    }
+    #parent
+    {
+        height: 1000vh;
+    }
+    #son3
+    {
+        margin-left: 6vw;
+        margin-top: 100vw;
+    }
+    #son10
+    {
+        margin-top: -350vw;
+        height: 90vh;
+        margin-left: 15vw;
+    }
+    #son11
+    {
+        margin-top: -300vw;
+    }
+    #son12
+    {
+
+        height: 1000vh;
+        width: 1000vw;
+        margin-top: -300vw;
+        margin-left: 43vw;
+    }
+    #son4
+    {
+        width: 70vw;
+    }
+    #son5
+    {
+        width: 70vw;
+    }
+    #son5 input
+    {
+        width: 70vw;
+    }
+    #son6 button
+    {
+        width: 70vw;
+    }
+    #son7
+    {
+       display: flex;
+       justify-content: flex-start;
+       height: 200vh;
+       margin-left: -7vw;
+    }
+    #child 
+    {
+        margin-top: -270vw;
+        margin-left: 43vw;
+    }
+    #child1
+    {
+        margin-left: 43vw;
+        margin-top: -300vw;
+    }
+    #child1 input
+    {
+        height: 40vh;
+    }
+    #child3
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 auto;
+        margin-left: 15vw;
+    }
+}
+@media(max-width:600px)
+{
+
+    #son4
+    {
+        margin-left: 10vw;
+    }
+    #son5
+    {
+        margin-left: 10vw;
+    }
+    #son8
+    {
+        margin-left: 10vw;
+    }
+    #son6
+    {
+        margin-left: -9vw;
+    }
+    #son9
+    {
+        margin-left: -9vw;
+    }
+    #son7
+    {
+        margin-left: -5vw;
+    }
+    #son1
+    {
+        height: 60vh;
+        margin-left: 15vw;
+
+    }
+    #son10
+    {
+        margin-top: -850vw;
+        margin-left: 2vw;
+        width: 100vw;
+    }
+    #son4
+    {
+        margin-top: 300vw;
+    }
+    #child
+    {
+        margin-top: -720vw;
+        width: 50vw;
+        margin-left: 30vw;
+    }
+    #son12
+    {
+        display: none;
+    }
+    #child1
+    {
+        margin-top: 10vw;
+    }
+    #son3
+    {
+        gap: 10vw;
+    }
+    #son4
+    {
+        margin-top: -90vw;
+    }
+    #child3
+    {
+        margin-left: 0vw;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: -100vw;
+    }
+    #parent
+    {
+        height: 810vh;
+    }
+
+}

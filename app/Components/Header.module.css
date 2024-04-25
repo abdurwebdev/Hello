@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+#nav
+{
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 3vw;
+    display: none;
+}
+@media(max-width:992px)
+{
+ #link
+ {
+    display: none;
+ }
+ #btn
+ {
+    display: none;
+ }
+ #main
+ {
+    height: 22.5vh;
+ }
+ #fruit h1
+ {
+    position: absolute;
+    top: 1vw;
+    font-size: 4vw;
+ }
+ #burger
+ {
+    border: 1px solid black;
+    color: #81C408;
+    background-color: white;
+    padding: 1vw 2vw;
+    font-size: 2vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 80vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    z-index: 9999;
+ }
+ #hamburger
+ {
+   width: 75%;
+   height: 60vh;
+   background-color: #ffffff;
+   position: absolute;
+   top: -68vw;
+   transition: 1s;
+   z-index: 9999;
+   left: 13vw;
+ }
+}
+
+@media(max-width:600px)
+{
+  #link
+  {
+    display: none;
+  }
+  #btn
+  {
+    display: none;
+  }
+  #main
+  {
+    height: 18vh;
+  }
+  #fruit h1
+  {
+    font-size: 6vw;
+    position: absolute;
+    top: 1vw;
+    left: -23vw;
+  }
+  #burger
+  {
+    border: 1px solid black;
+    color: #81C408;
+    background-color: white;
+    padding: 1vw 2vw;
+    font-size: 5vw;
+    position: absolute;
+    top: 5vw;
+    left: 88vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    z-index: 9999;
+  }
+  #hamburger
+  {
+    width: 95%;
+    height: 60vh;
+    background-color: #ffffff;
+    position: absolute;
+    top: -68vw;
+    transition: 1s;
+    z-index: 9999;
+    left: 0;
+  }
+}
+@media(min-width:1200px)
+{
+    #nav
+    {
+        display: block;
+    }
+    #burger
+    {
+        display: none;
+    }
+    #hamburger
+    {
+      display: none;
+    }
+}
+@media(min-width:1000px)
+{
+    #burger
+    {
+        display: none;
+        
+    }
+    #hamburger
+    {
+      display: none;
+    }
+}
+
+
+#orange
+{
+    color: #FFB524;
+}
+#mail
+{
+    color: #FFB524;
+}
+#link
+{
+    margin-top: 2vw;
+}
+

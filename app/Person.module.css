@@ -1,0 +1,36 @@
+@media(max-width:992px)
+{
+    #main
+    {
+        height: 150vh;
+    }
+    #sub
+    {
+        height: 130vh;
+        width: 70vw;
+        margin-left: 14vw;
+    }
+    #grids
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:600px)
+{
+    #main
+    {
+        height: 270vh;
+    }
+    #grids
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #sub
+    {
+        width: 89vw;
+        margin-left: 4vw;
+        height: 250vh;
+    }
+}

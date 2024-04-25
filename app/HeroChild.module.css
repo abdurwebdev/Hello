@@ -1,0 +1,16 @@
+@media(max-width:600px)
+{
+    #main
+    {
+        height: 180vh;
+    }
+    #head
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #jum
+    {
+        margin-left: -10vw;
+    }
+}

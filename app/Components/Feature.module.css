@@ -1,0 +1,16 @@
+@media(max-width:600px)
+{
+    #child
+    {
+        width: 24vw;
+    }
+    #child img
+    {
+        width: 20vw;
+    }
+    #kid1
+    {
+        width: 30vw;
+    }
+
+}
